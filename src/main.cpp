@@ -1,4 +1,7 @@
-/* M5Avatar の顔を出し、SanoTTS-jp で喋りながら口をリップシンクさせるサンプル。
+/* SPDX-License-Identifier: MIT
+ * Copyright (c) 2026 nnn112358
+ *
+ * M5Avatar の顔を出し、SanoTTS-jp で喋りながら口をリップシンクさせるサンプル。
  *
  *   起動時に 1 文喋り、以後は画面をタッチするたびに次の文を喋る。
  *

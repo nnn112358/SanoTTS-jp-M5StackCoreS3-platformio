@@ -187,3 +187,21 @@ pio run -t upload
 ```
 
 
+
+---
+
+## 作者とライセンス
+
+作者: [nnn112358](https://github.com/nnn112358)
+
+| 対象 | 出所 | ライセンス |
+|---|---|---|
+| `src/main.cpp` `platformio.ini` `sanotts_16mb.csv` `README.md` | このリポジトリ | MIT（[`LICENSE`](LICENSE)、Copyright (c) 2026 nnn112358） |
+| sanoTTS-jp（TTS 本体） | [ayutaz/sanoTTS-jp](https://github.com/ayutaz/sanoTTS-jp)（`lib_deps` で取得） | MIT |
+| sanoTTS-jp-voice-tsukuyomi-v4（音声の重み） | 同上 | sanoTTS-jp Model License 1.0（つくよみちゃんコーパス © 夢前黎 由来の帰属表示と用途制限が伝播。`.pio/libdeps/.../SanoTTS-jp-voice-tsukuyomi-v4/LICENSE-MODEL.md`） |
+| `k1-dict-44000-2mb.bin`（同梱の漢字辞書） | sanoTTS-jp Release v1.1.0。NAIST Japanese Dictionary / UniDic の派生物 | 修正 BSD（[`LICENSES/sanoTTS-jp.NOTICE-dictionary.txt`](LICENSES/sanoTTS-jp.NOTICE-dictionary.txt)） |
+| M5Unified / M5GFX | M5Stack（`lib_deps`） | MIT（日本語フォント `efontJA_16` は M5GFX 同梱） |
+| M5Stack-Avatar 0.10.0 | [stack-chan/m5stack-avatar](https://github.com/stack-chan/m5stack-avatar)（`lib_deps`） | MIT（Copyright (c) 2018 Shinya Ishikawa） |
+
+ビルドした flash イメージは音声の重みを含む。配布するときは重みの `LICENSE-MODEL.md` の帰属表示と
+生成音声の用途制限を受け取る側にも伝えること。
