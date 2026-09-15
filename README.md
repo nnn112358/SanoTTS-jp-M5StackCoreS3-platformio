@@ -1,4 +1,4 @@
-# SanoTTS-jp + M5Avatar リップシンクサンプル
+# SanoTTS-jp + M5Avatar 
 
 [sanoTTS-jp](https://github.com/ayutaz/sanoTTS-jp) と [M5Stack-Avatar](https://github.com/meganetaaan/m5stack-avatar) を
 M5Stack CoreS3 で組み合わせた PlatformIO プロジェクト。
