@@ -25,7 +25,7 @@ M5Stack CoreS3 で組み合わせた PlatformIO プロジェクト。
 
 | 項目 | 内容 |
 |---|---|
-| 板 | M5Stack CoreS3（ESP32-S3 / 16 MB flash）。無印 ESP32 / C3 / C5 では実時間に間に合わない |
+| 板 | M5Stack CoreS3（ESP32-S3 / 16 MB flash）。 |
 | PC 側 | Linux、`uv`、USB-C ケーブル |
 | PlatformIO | 公式 `espressif32` は arduino-esp32 2.0.17 で止まっており動かない。`platformio.ini` で [pioarduino](https://github.com/pioarduino/platform-espressif32)（3.x）を指定済み |
 
