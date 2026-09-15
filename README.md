@@ -1,6 +1,6 @@
 # SanoTTS-jp + M5Avatar 
 
-[sanoTTS-jp](https://github.com/ayutaz/sanoTTS-jp) と [M5Stack-Avatar](https://github.com/meganetaaan/m5stack-avatar) を
+[sanoTTS-jp](https://github.com/ayutaz/sanoTTS-jp) と [M5Stack-Avatar](https://github.com/stack-chan/m5stack-avatar) を
 M5Stack CoreS3 で組み合わせた PlatformIO プロジェクト。
 漢字かな交じり文をそのまま端末側で G2P してニューラル TTS で喋り（ネットワーク不要）、
 喋っている音量に合わせてアバターの口が動く。
